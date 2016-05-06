@@ -1,9 +1,10 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
-  <name>COE</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
-  <content src="index.html"/>
- <preference name="permissions" value="none" />
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ko.coe" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>COE</name>
+    <description>Hello World sample application that responds to the deviceready event.</description>
+    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="target-device" value="universal" />
@@ -14,7 +15,6 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#333333" />
     <preference name="StatusBarStyle" value="black-opaque" />
-	<preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
     <preference name="detect-data-types" value="true" />
@@ -42,6 +42,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+    
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
@@ -77,7 +78,8 @@
     <access origin="content:///*" />
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
-    <plugin name="org.apache.cordova.battery-status" source="pgb" spec="0.2.12" />
+    <plugin name="org.apache.cordova.battery-status" spec="0.2.12" source="pgb" />
+    <
     <plugin name="org.apache.cordova.camera" source="pgb" spec="0.3.6" />
     <plugin name="org.apache.cordova.console" source="pgb" spec="0.2.13" />
     <plugin name="org.apache.cordova.contacts" source="pgb" spec="0.2.16" />
@@ -96,11 +98,14 @@
     <plugin name="org.apache.cordova.splashscreen" source="pgb" spec="1.0.0" />
     <plugin name="org.apache.cordova.statusbar" source="pgb" spec="0.1.4" />
     <plugin name="org.apache.cordova.vibration" source="pgb" spec="0.3.13" />
-  <platform name="android">
-    <allow-intent href="market:*"/>
-  </platform>
-  <platform name="ios">
-    <allow-intent href="itms:*"/>
-    <allow-intent href="itms-apps:*"/>
-  </platform>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="100000000" />
+    <engine name="ios" spec="~4.1.1" />
 </widget>

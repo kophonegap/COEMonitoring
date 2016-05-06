@@ -8,61 +8,61 @@
     },
     "installed_plugins": {
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.battery-status": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.contacts": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.device-motion": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.device-orientation": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.dialogs": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.file": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.file-transfer": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.geolocation": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.globalization": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.media": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.media-capture": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.network-information": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.splashscreen": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         },
         "org.apache.cordova.vibration": {
-            "PACKAGE_NAME": "com.ko.travelfaq"
+            "PACKAGE_NAME": "com.ko.coe"
         }
     },
     "dependent_plugins": {}
