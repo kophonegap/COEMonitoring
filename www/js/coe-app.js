@@ -1,5 +1,4 @@
-
-	$(".detailbox").addClass("hidden");
+$(".detailbox").addClass("hidden");
 			
 	$("#gg1_details").on("click",function(){
 		//alert("Hello");
